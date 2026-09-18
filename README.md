@@ -15,7 +15,7 @@ ReGra-VTON is a diffusion-based virtual try-on project. It supports single-image
 The project was developed on Linux with Python 3.10 and PyTorch 2.5.1 + CUDA 11.8.
 
 ```bash
-git clone https://github.com/levellife/ReGra-VTON.git
+git clone https://github.com/levelife/ReGra-VTON.git
 cd ReGra-VTON
 
 conda create -n regra-vton python=3.10 -y
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 1. Download ReGra-VTON weights
 
-The inference script expects a **local path** for `--transformer_path`. Download the model from [Hugging Face](https://huggingface.co/levellife/ReGra-VTON) first:
+The inference script expects a **local path** for `--transformer_path`. Download the model from [Hugging Face](https://huggingface.co/levelife/ReGra-VTON) first:
 
 ```bash
 huggingface-cli download levelife/ReGra-VTON \
@@ -123,7 +123,7 @@ This project supports the following datasets. Download them from their official 
 
 - [VITON-HD](https://github.com/shadow2496/VITON-HD)
 - [DressCode](https://github.com/aimagelab/dress-code)
-- [DressCode-MR / FastFit](https://github.com/Zheng-Chong/FastFit)
+- [DressCode-MR](https://github.com/Zheng-Chong/FastFit)
 
 ### 2. Base models
 
